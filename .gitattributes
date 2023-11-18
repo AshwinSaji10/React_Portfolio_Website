@@ -1,0 +1,3 @@
+# Explicitly specify the language for React files
+*.js linguist-detect=JavaScript
+
