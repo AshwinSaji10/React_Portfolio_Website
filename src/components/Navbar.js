@@ -4,10 +4,10 @@ function Navbar()
 {
     return(
         <nav className='Navbar'>
-            <NavLink to='/Home'>Home</NavLink>
-            <NavLink to='/About'>About</NavLink>
-            <NavLink to='/Projects'>Projects</NavLink>
-            <NavLink to='/Contact'>Contact</NavLink>
+            <NavLink to='/Home' className="Navbar-item">Home</NavLink>
+            <NavLink to='/About' className="Navbar-item">About</NavLink>
+            <NavLink to='/Projects' className="Navbar-item">Projects</NavLink>
+            <NavLink to='/Contact' className="Navbar-item">Contact</NavLink>
         </nav>
     );
 };
